@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c; /* Dark background */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.login-box {
+    display: flex;
+    width: 100%;
+    background-color: #333333; /* Dark gray background for the box */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.login-left, .welcome-right {
+    padding: 40px;
+    width: 50%; /* Split box into two equal sections */
+}
+
+.login-left {
+    border-right: 1px solid #444444; /* Dividing line */
+    text-align: left;
+}
+
+.welcome-right {
+    text-align: center;
+}
+
+.login-left h3, .welcome-right h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.welcome-right p {
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 20px;
+}
+
+.signup-link p {
+    font-size: 12px;
+    color: #cccccc;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
